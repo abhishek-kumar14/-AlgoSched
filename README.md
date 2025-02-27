@@ -10,15 +10,6 @@ AlgoSched is a C++ simulator that implements and compares various CPU scheduling
 - **Priority Scheduling:** Preemptive scheduling based on process priority (with FCFS as a tie-breaker).
 - **Round Robin:** Preemptive scheduling that gives each process a fixed time quantum.
 
-## Project Structure
-
-The project is organized into multiple files for better modularity:
-
-AlgoSched/ ├── .vscode/ │ ├── tasks.json # Build task configuration for VS Code │ └── launch.json # Debug configuration for VS Code (optional) ├── fcfs.cpp # Implementation of FCFS algorithm ├── sjf.cpp # Implementation of SJF algorithm ├── srtf.cpp # Implementation of SRTF algorithm ├── priority.cpp # Implementation of Priority Scheduling ├── roundrobin.cpp # Implementation of Round Robin algorithm ├── utils.cpp # Utility functions for calculating averages (optional) ├── scheduling.h # Header file with common declarations and prototypes └── main.cpp # Main driver file for the simulator
-
-mathematica
-Copy
-Edit
 
 ## Installation and Setup
 
